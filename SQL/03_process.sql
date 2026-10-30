@@ -1,7 +1,3 @@
--- ============================================================
--- Phase 3: Data Cleaning & Integrity Validation
--- ============================================================
-
 -- 1. Inspect Order Status Distribution
 -- Objective: Understand fulfillment stages and identify realized revenue.
 SELECT 
