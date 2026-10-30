@@ -1,3 +1,26 @@
+# TheLook eCommerce: Sales & Inventory Optimization Analysis
+
+## 📌 Project Overview
+This project is an end-to-end data analysis of **TheLook eCommerce**, a public dataset provided by Google BigQuery. The primary objective is to analyze transaction records and warehouse inventory to identify high-margin product categories, quantify capital tied up in dead stock, and provide actionable business recommendations to optimize cash flow.
+
+**Tools & Technologies Used:** 
+- **Database:** Google BigQuery (SQL)
+- **Data Visualization:** Looker Studio
+- **Version Control:** Git, GitHub
+- **IDE:** Visual Studio Code
+
+---
+
+## 📑 Table of Contents
+- [Phase 1: Ask (Problem Definition & Objectives)](#phase-1-ask-problem-definition--objectives)
+- [Phase 2: Prepare (Data Verification & ROCCC)](#phase-2-prepare-data-verification--roccc)
+- [Phase 3: Process (Data Cleaning & Business Rules)](#phase-3-process-data-cleaning--business-rules)
+- [Phase 4: Analyze (Key Findings & SQL Outputs)](#phase-4-analyze-key-findings--sql-outputs)
+- [Phase 5: Share (Data Visualization & Reporting)](#phase-5-share-data-visualization--reporting)
+- [Phase 6: Act (Data-Driven Business Recommendations)](#phase-6-act-data-driven-business-recommendations)
+
+---
+
 # 1. Ask Phase (Problem Definition & Objectives)
 
 ### Business Context
@@ -120,3 +143,7 @@ To optimize query performance and seamlessly connect the data to Looker Studio, 
 
 ### 3. Basket Size Optimization (AOV Expansion)
 - Since 46.34% of orders are under $50, introduce a **Free Shipping Threshold at $65** or a **"Bundle & Save" promotion (e.g., Buy Jeans, get a Top at 20% off)** to push Low-tier shoppers into the Mid-tier ($50–$100), directly boosting Average Order Value (AOV).
+
+## 📬 Contact Me
+- **LinkedIn:** https://www.linkedin.com/in/teerayut-vry/
+- **Email:** teerayut.vry@gmail.com
