@@ -1,6 +1,6 @@
 # TheLook eCommerce: Sales & Inventory Optimization Analysis
 
-## 📌 Project Overview
+##  Project Overview
 This project is an end-to-end data analysis of **TheLook eCommerce**, a public dataset provided by Google BigQuery. The primary objective is to analyze transaction records and warehouse inventory to identify high-margin product categories, quantify capital tied up in dead stock, and provide actionable business recommendations to optimize cash flow.
 
 **Tools & Technologies Used:** 
@@ -8,10 +8,11 @@ This project is an end-to-end data analysis of **TheLook eCommerce**, a public d
 - **Data Visualization:** Looker Studio
 - **Version Control:** Git, GitHub
 - **IDE:** Visual Studio Code
+- **Datasource:** [theLook E-commerce Data](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce?authuser=1&project=big-query-data-projects)
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 - [1. Ask Phase (Problem Definition & Objectives)](#1-ask-phase-problem-definition--objectives)
 - [2. Prepare Phase (Data Verification & ROCCC)](#2-prepare-phase-data-verification--roccc)
 - [3. Process Phase (Data Cleaning & Business Rules)](#3-process-phase-data-cleaning--business-rules)
