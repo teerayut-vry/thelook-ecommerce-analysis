@@ -12,12 +12,12 @@ This project is an end-to-end data analysis of **TheLook eCommerce**, a public d
 ---
 
 ## 📑 Table of Contents
-- [Phase 1: Ask (Problem Definition & Objectives)](#phase-1-ask-problem-definition--objectives)
-- [Phase 2: Prepare (Data Verification & ROCCC)](#phase-2-prepare-data-verification--roccc)
-- [Phase 3: Process (Data Cleaning & Business Rules)](#phase-3-process-data-cleaning--business-rules)
-- [Phase 4: Analyze (Key Findings & SQL Outputs)](#phase-4-analyze-key-findings--sql-outputs)
-- [Phase 5: Share (Data Visualization & Reporting)](#phase-5-share-data-visualization--reporting)
-- [Phase 6: Act (Data-Driven Business Recommendations)](#phase-6-act-data-driven-business-recommendations)
+- [1. Ask Phase (Problem Definition & Objectives)](#1-ask-phase-problem-definition--objectives)
+- [2. Prepare Phase (Data Verification & ROCCC)](#2-prepare-phase-data-verification--roccc)
+- [3. Process Phase (Data Cleaning & Business Rules)](#3-process-phase-data-cleaning--business-rules)
+- [4. Analyze Phase (Key Findings & SQL Outputs)](#4-analyze-phase-key-findings--sql-outputs)
+- [5. Share Phase (Data Visualization & Reporting)](#5-share-phase-data-visualization--reporting)
+- [6. Act Phase (Data-Driven Business Recommendations)](#6-act-phase-data-driven-business-recommendations)
 
 ---
 
@@ -67,7 +67,7 @@ To ensure accurate revenue reporting, we audited item fulfillment statuses acros
 | Cancelled  | 27085       | 14.97      |
 | Returned   | 18033       | 9.97       |
 
-## 4. Analyze Phase (Key Findings & SQL Outputs)
+# 4. Analyze Phase (Key Findings & SQL Outputs)
 
 ### Finding 1: Profitability vs. Volume Disconnect
 While **Jeans** generated the highest order volume (2,947 orders), **Outerwear & Coats** emerged as the primary business profit engine, yielding $194,147.34 in gross profit with a robust 55.60% margin. Additionally, **Suits & Sport Coats** achieved the highest margin efficiency across the catalog at 59.96%, yielding nearly $100k profit from just 1,288 orders.
@@ -121,7 +121,7 @@ There is a stark polarization in customer checkout behavior:
 
 ---
 
-## 5. Share Phase (Data Visualization & Reporting)
+# 5. Share Phase (Data Visualization & Reporting)
 
 ### Data Preparation (BigQuery Views)
 To optimize query performance and seamlessly connect the data to Looker Studio, the analytical SQL logic was materialized into persistent BigQuery Views:
@@ -132,7 +132,7 @@ To optimize query performance and seamlessly connect the data to Looker Studio, 
 
 ---
 
-## 6. Act Phase (Data-Driven Business Recommendations)
+# 6. Act Phase (Data-Driven Business Recommendations)
 
 ### 1. Immediate Working Capital Recovery (Clearance Strategy)
 - **Target:** Liquidate obsolete units in `Jeans` and `Outerwear & Coats` that have exceeded 365 days in warehouse storage.
